@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Goblin One', cursive;
+  
+}
+
+/********* header *********/
+
+img{
+  float: left;
+}
+h1{
+  text-shadow: 1px 2px 5px black;
+}
+.header{
+  text-align: center;
+  color: #ff8000;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+/******** Footer *********/
+
+.footer{
+  color: #ff8000;
+  margin-top: 100vh;
+  text-align: center;
+  height: 50px;
+}
+
+
+/********* main UI **********/
+
+.form{
+  margin-top: 30px;
+  margin-right: 33%;
+  float: center;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 33%;
+  height: 200px;
+  padding: 0px;
+  border-radius: 5px;
+
+}
+.main_note{
+  width: 100%;
+  text-align: left;
+  
+}
+input{
+  color: orange;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 10px;
+  top: 10px;
+  height: 50px;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 100;
+  width: 100%;
+  outline: none;
+  }
+  
+textarea{
+  height: 200px;
+  color: grey;
+  margin-top: 10px;
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 10px;
+  font-weight: 100;
+  width: 100%;
+  outline: none;
+}
+/******* button ******/
+
+.plus_sign{
+display: block;
+}
+.Button{
+  float: right;
+  display: block;
+  width: 30px;
+  margin-top: 35px;
+  padding: 1px;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.4s;
+}
+.Button:hover {
+  background-color: orange; /* Green */
+  color: white;
+}
+
+/********  Note ********/
+h2{
+margin-top: 10px;
+color: orange;
+font-size: 15px;
+text-transform: uppercase;
+}
+p{
+color: gray;
+font-size: 10px;
+text-transform: capitalize;
+}
+button{
+  background-color: white;
+  border: 0px;
+}
+.deleteicon{
+  color: grey;
+  margin-top: 110px ;
+  margin-left: 250px;
+}
+.deleteicon:hover{
+  color: orange;
+}
+.note{
+  margin-top: 30px;
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 200px;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 768) {
+  .center_div {
+    width: 55%;
+  }
+}
+
